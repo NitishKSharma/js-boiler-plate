@@ -5,6 +5,7 @@ import fs from 'fs';
 
 describe('Our first test', () => {
 	it('should pass', () => {
+		console.log("just a change");
 		expect(true).to.equal(false);
 	});
 });
